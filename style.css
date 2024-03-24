@@ -124,7 +124,14 @@ aside span p {
   color: #9e9ea0;
 }
 #linkedinlogo {
-  width: 20px;
+  width: 30px;
+  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
+    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+}
+span div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   :root {
